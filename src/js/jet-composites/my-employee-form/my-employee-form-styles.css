@@ -1,0 +1,22 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   my-employee-form .my-employee-form-value-text {
+   color: var(--my-employee-form-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+my-employee-form:not(.oj-complete){
+  visibility: hidden;
+}
+
+my-employee-form{
+	min-height: 50px;
+	width: 50px;
+}
+
+my-employee-form[hidden]
+{
+  display: none;
+}
